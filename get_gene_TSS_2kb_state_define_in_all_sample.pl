@@ -27,7 +27,7 @@ foreach (<MAT>){
        	}if($data[19] eq "+"){ 
        	my $distance = $data[16]-$data[2];
                 if($distance >= -200 && $distance <1800){
-                for ($i = 3; $i<= 5 ;$i++){
+                for ($i = 3; $i<= 13 ;$i++){
 	for ($j = 1; $j<= 12 ;$j++){
 	if ($data[$i] eq "$j"){
 	$type = join ("|",$gene,$i,$j);
